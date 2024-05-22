@@ -1,12 +1,12 @@
 package se.lexicon.data_access;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 import se.lexicon.model.Student;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Component
+@Repository
 public class StudentDaoImpl implements StudentDao {
     private List<Student> students = new ArrayList<>();
 
