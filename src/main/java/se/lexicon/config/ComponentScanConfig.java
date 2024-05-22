@@ -1,6 +1,9 @@
 package se.lexicon.config;
 
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = "se.lexicon")
 public class ComponentScanConfig {
-    // Annotate your configuration class with @Configuration
-    //Add @ComponentScan(“packagename”) to the configuration class
 }
